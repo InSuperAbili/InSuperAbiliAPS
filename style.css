@@ -1,0 +1,25 @@
+body {
+    background-color: #f0fbfb;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+h1 { color: #40c4c4; }
+.divider { height: 4px; width: 60px; background: #e69138; margin: 20px auto; }
+.btn {
+    display: inline-block;
+    background: #40c4c4;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
