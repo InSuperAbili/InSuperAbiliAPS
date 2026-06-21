@@ -34,5 +34,23 @@ h1 { color: #40c4c4; margin-bottom: 5px; }
 .content ul { text-align: left; display: inline-block; color: #333; margin-bottom: 30px; }
 .wip-banner { background: #fff8eb; border: 1px solid #fce8c3; padding: 15px; border-radius: 12px; margin-bottom: 30px; }
 .wip-icon { font-size: 1.5em; display: block; margin-bottom: 5px; }
+
+.navbar {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.navbar a {
+    text-decoration: none;
+    color: #40c4c4;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+}
+.navbar a:hover {
+    border-bottom: 2px solid #40c4c4;
+}
 .btn { display: block; background: #40c4c4; color: white; padding: 12px; text-decoration: none; border-radius: 8px; font-weight: bold; transition: background 0.3s; }
 .btn:hover { background: #35a3a3; }
