@@ -14,48 +14,25 @@ body {
     border-radius: 25px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
     text-align: center;
-    max-width: 400px;
-    width: 90%;
+    width: 90%; /* Valore base per cellulare */
+    max-width: 400px; /* Limite massimo per cellulare */
 }
 
-.logo {
-    max-width: 200px;
-    height: auto;
-    margin-bottom: 10px;
+/* MEDIA QUERY: Per schermi grandi (PC) */
+@media (min-width: 768px) {
+    .main-card {
+        max-width: 800px; /* La card diventa molto più larga su PC */
+        padding: 80px;
+    }
 }
 
+.logo { max-width: 200px; height: auto; margin-bottom: 10px; }
 h1 { color: #40c4c4; margin-bottom: 5px; }
-
-.subtitle {
-    font-weight: bold;
-    color: #40c4c4;
-    margin-top: -5px;
-    margin-bottom: 5px;
-}
-
+.subtitle { font-weight: bold; color: #40c4c4; margin-top: -5px; margin-bottom: 5px; }
 .tagline { color: #666; font-size: 0.9em; margin-bottom: 20px; }
-
 .divider { height: 4px; width: 50px; background: #e69138; margin: 0 auto 30px; border-radius: 2px; }
-
 .content ul { text-align: left; display: inline-block; color: #333; margin-bottom: 30px; }
-
-.wip-banner {
-    background: #fff8eb;
-    border: 1px solid #fce8c3;
-    padding: 15px;
-    border-radius: 12px;
-    margin-bottom: 30px;
-}
+.wip-banner { background: #fff8eb; border: 1px solid #fce8c3; padding: 15px; border-radius: 12px; margin-bottom: 30px; }
 .wip-icon { font-size: 1.5em; display: block; margin-bottom: 5px; }
-
-.btn {
-    display: block;
-    background: #40c4c4;
-    color: white;
-    padding: 12px;
-    text-decoration: none;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: background 0.3s;
-}
+.btn { display: block; background: #40c4c4; color: white; padding: 12px; text-decoration: none; border-radius: 8px; font-weight: bold; transition: background 0.3s; }
 .btn:hover { background: #35a3a3; }
