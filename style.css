@@ -18,8 +18,23 @@ body {
     width: 90%;
 }
 
+.logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
 h1 { color: #40c4c4; margin-bottom: 5px; }
+
+.subtitle {
+    font-weight: bold;
+    color: #40c4c4;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
 .tagline { color: #666; font-size: 0.9em; margin-bottom: 20px; }
+
 .divider { height: 4px; width: 50px; background: #e69138; margin: 0 auto 30px; border-radius: 2px; }
 
 .content ul { text-align: left; display: inline-block; color: #333; margin-bottom: 30px; }
